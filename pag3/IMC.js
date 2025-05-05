@@ -3,7 +3,7 @@ function calcularIMC() {
     const peso = parseFloat(document.getElementById('peso').value);
     const alturaCm = parseFloat(document.getElementById('altura').value);
     
-    // Validar los datos ingresados
+   
     if (isNaN(peso) || isNaN(alturaCm) || peso <= 0 || alturaCm <= 0) {
         alert("Por favor ingresa valores válidos para peso y altura.");
         return;
