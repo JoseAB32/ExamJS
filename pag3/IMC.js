@@ -10,6 +10,7 @@ function calcularIMC() {
     }
     
     
+    
     const alturaM = alturaCm / 100;
     
     
