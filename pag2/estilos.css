@@ -1,0 +1,22 @@
+.cajaFlexible {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.cambiada{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+}
+
+.cajita {
+    background-color: yellow;
+    flex: 1 1 33%;
+}
+
+button {
+    width: 50%;
+    height: 10%;
+}
