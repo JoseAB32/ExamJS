@@ -5,8 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../estilos.css">
+    <link rel="stylesheet" href="IMC.css">
 </head>
 <body>
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="../pag1/color.html">Página 1</a>
+            </li>
+            <li>
+                <a href="../pag2/cambioPosi.html">Página 2</a>
+            </li>
+            <li>
+                <a href="../pag3/IMC.html">Página 3</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1>Calculadora Indice de Masa Corporal (IMC)</h1>
+    <div class="Calculadora">
+        <div class="Campo">
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" step="0.1"  placeholder="55.7">
+        </div>
+
+        <div class="Campo">
+            <label for="altura">Altura (cm):</label>
+            <input type="number" id="altura"  placeholder="161">
+        </div>
+
+        <button onclick="calcularIMC()">Calcular</button>
+        
+        <div id="resultado">
+            
+        </div>
+
+        <div class="informacion">
+            <img src="pesos.jpeg" alt="pasos">
+        </div>
+    </div>
+
+    <script src="IMC.js"></script>
     <nav>
         <ul>
             <li>
